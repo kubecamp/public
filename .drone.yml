@@ -17,3 +17,4 @@ pipeline:
       {{ build.author }} finished building {{ repo.owner }}/{{ repo.name }} ({{ build.branch }})
     when:
       status: success
+    secrets: [ slack_webhook]
