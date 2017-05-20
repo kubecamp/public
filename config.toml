@@ -1,0 +1,5 @@
+baseURL = "http://kube.camp"
+languageCode = "en-gb"
+title = "Kube.Camp"
+template = "hugo-uno"
+
